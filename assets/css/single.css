@@ -1,0 +1,147 @@
+/* 投稿ページのメインコンテンツ */
+.single-post {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+/* 投稿ヘッダー */
+.post-header {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.post-title {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+.post-meta {
+  color: #666;
+  font-size: 0.9em;
+  margin-bottom: 20px;
+}
+
+.post-meta span {
+  margin-right: 20px;
+}
+
+/* アイキャッチ画像 */
+.post-thumbnail {
+  margin-bottom: 30px;
+}
+
+.post-thumbnail img {
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* 投稿コンテンツ */
+.post-content {
+  font-size: 1.1em;
+  line-height: 1.8;
+}
+
+.post-content p {
+  margin-bottom: 1.5em;
+}
+
+.post-content h2 {
+  font-size: 1.8em;
+  margin: 2em 0 1em;
+  padding-bottom: 0.5em;
+  border-bottom: 2px solid #eee;
+}
+
+.post-content h3 {
+  font-size: 1.5em;
+  margin: 1.5em 0 1em;
+}
+
+.post-content img {
+  max-width: 100%;
+  height: auto;
+  margin: 2em 0;
+  border-radius: 8px;
+}
+
+/* タグとカテゴリー */
+.post-taxonomies {
+  margin: 40px 0;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.post-taxonomies h3 {
+  margin-bottom: 15px;
+  font-size: 1.2em;
+}
+
+.taxonomy-links a {
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 0 5px 5px 0;
+  background-color: #eee;
+  border-radius: 4px;
+  color: #333;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+
+.taxonomy-links a:hover {
+  background-color: #ddd;
+}
+
+/* 前後の投稿へのナビゲーション */
+.post-navigation {
+  margin: 40px 0;
+  padding: 20px 0;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-previous,
+.nav-next {
+  flex: 1;
+}
+
+.nav-previous {
+  text-align: left;
+}
+
+.nav-next {
+  text-align: right;
+}
+
+.nav-links a {
+  color: #333;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  color: #007bff;
+}
+
+/* レスポンシブ対応 */
+@media (max-width: 768px) {
+  .single-post {
+    padding: 20px 0;
+  }
+
+  .post-title {
+    font-size: 2em;
+  }
+
+  .post-content {
+    font-size: 1em;
+  }
+}
