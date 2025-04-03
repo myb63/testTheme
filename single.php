@@ -1,3 +1,4 @@
+<!-- 商品詳細ページ -->
 <?php get_header(); ?>
 
 <main class="container">
@@ -35,7 +36,7 @@
             </div>
 
             <!-- タグとカテゴリー -->
-            <div class="post-taxonomies">
+            <!-- <div class="post-taxonomies">
                 <?php if (has_tag()) : ?>
                     <div class="post-tags">
                         <h3>タグ</h3>
@@ -53,10 +54,10 @@
                         </div>
                     </div>
                 <?php endif; ?>
-            </div>
+            </div> -->
 
             <!-- 前後の投稿へのナビゲーション -->
-            <nav class="post-navigation">
+            <!-- <nav class="post-navigation">
                 <div class="nav-links">
                     <?php
                     $prev_post = get_previous_post();
@@ -80,7 +81,7 @@
                         </div>
                     <?php endif; ?>
                 </div>
-            </nav>
+            </nav> -->
 
         <?php endwhile; ?>
     </article>
